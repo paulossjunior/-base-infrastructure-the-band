@@ -1,8 +1,8 @@
-# Immigrant Communication and Change Data Capture Infrastructure
+# The Band Infrastruture to Communication and Change Data Capture among OBDS and OBS
 
 ## 🚀 Goal
 
-Provides an infrastructure that allows capturing of any change in the database (e.g., insert, update, delete) and sending it to a queue, as presented in Figure.
+Provides an infrastructure that allows capturing of any change in the OBDS (e.g., insert, update, delete) and sending it to a queue, as presented in Figure.
 
 ![alt text](debezium-architecture.png "Debezium")
 
@@ -16,7 +16,7 @@ First, creates a .env file with the following contain:
 
 ```
 DEBEZIUM_VERSION=2.0
-COMPOSE_PROJECT_NAME = immigrant-cdc-infrastruture
+COMPOSE_PROJECT_NAME = theband-cdc-infrastruture
 ```
 The last, in a terminal execute the following commnad to start the infrastructure
 
@@ -33,10 +33,6 @@ To check: [http://localhost:19000]
 2. [Debezium](debezium.io/) 
 3. [PostgreSQL](https://www.postgresql.org/)
 4. [Kafdrop] (https://github.com/obsidiandynamics/kafdrop)
-
-## ✒️ Team
-
-[Paulo Sérgio dos Santos Júnior](paulossjunior@gmail.com)
 
 ## 📕 Literature
 
