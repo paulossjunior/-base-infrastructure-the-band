@@ -1,4 +1,4 @@
-# The Band Infrastruture to Communication and Change Data Capture among OBDS and OBS
+# The Band Infrastructure to Communication and Change Data Capture among OBDS and OBS
 
 ## 🚀 Goal
 
